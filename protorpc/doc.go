@@ -4,14 +4,14 @@
 // license that can be found in the LICENSE file.
 
 /*
-Package gorilla/rpc/protorpc provides a codec for ProtoRPC over HTTP services.
+Package dotmesh-io/rpc/protorpc provides a codec for ProtoRPC over HTTP services.
 
 To register the codec in a RPC server:
 
 	import (
 		"http"
-		"github.com/gorilla/rpc"
-		"github.com/gorilla/rpc/protorpc"
+		"github.com/dotmesh-io/rpc"
+		"github.com/dotmesh-io/rpc/protorpc"
 	)
 
 	func init() {
@@ -41,7 +41,7 @@ Response:
   "responseField2": "value2",
 }
 
-Check the gorilla/rpc documentation for more details:
+Check the dotmesh-io/rpc documentation for more details:
 
 	http://gorilla-web.appspot.com/pkg/rpc
 */

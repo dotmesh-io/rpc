@@ -10,7 +10,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/gorilla/rpc"
+	"github.com/dotmesh-io/rpc"
 )
 
 var null = json.RawMessage([]byte("null"))
